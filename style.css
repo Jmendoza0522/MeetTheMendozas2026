@@ -1,0 +1,110 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fffaf7;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: #2c2c2c;
+}
+
+a {
+  color: #997950;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #f6f2ee;
+  border-bottom: 2px solid #ddd;
+}
+
+header.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+header.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+nav {
+  margin-top: 1.5rem;
+}
+
+nav a {
+  margin: 0 10px;
+  font-weight: 600;
+}
+
+section {
+  padding: 3rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form select,
+form button {
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #997950;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #7c613c;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f1e9e2;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  header.hero h1 {
+    font-size: 2rem;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    margin: 5px;
+    display: block;
+  }
+}
